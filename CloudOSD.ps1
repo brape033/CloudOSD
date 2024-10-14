@@ -7,7 +7,7 @@ if ((Get-MyComputerModel) -match 'Virtual') {
     Set-DisRes 1600
 }
 
-Write-Host  -ForegroundColor Cyan "Importing the sweet OSD PowerShell Module"
+Write-Host  -ForegroundColor Cyan "Importing OSD PowerShell Module"
 Import-Module OSD -Force
 
 $Global:MyOSDCloud = [ordered]@{
